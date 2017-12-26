@@ -1,0 +1,21 @@
+<html>
+
+<title> Phone buzz!!! </title>
+
+<head> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<p> Lets play phone buzz! </p>
+
+<form method = "POST" action="{{ url_for('dial_number') }}"> Enter a phone number to call to play phonebuzz!<br>
+  <input type="text" name="number" placeholder="+11234567890">
+  <input type="submit" value="Submit">
+</form>
+
+
+</html>
